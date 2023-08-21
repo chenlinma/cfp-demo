@@ -73,6 +73,19 @@
 						</tr>
 					</thead>
 					<tbody>
+						<tr class="item" style="background-color:purple;color:white">
+							<th scope="row">
+								<a class="hl" href="https://dac.com" target="_blank">DAC 2024</a>
+							</th>
+							<td>A</td>
+							<td> Nov 17, 2023 </td>
+							<td>Nov 24, 2023</td>
+							<td>Feb 23, 2024</td>
+							<td>Jul 23-27, 2024</td>
+							<td>
+								<div id="countdown"></div>
+							</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
@@ -166,20 +179,6 @@
 							<td>Jun 29-Jul 3, 2024</td>
 							<td>
 								<div data-countdown="2023-11-23 11:59:59"></div>
-							</td>
-						</tr>
-
-						<tr class="item" style="background-color:Wheat">
-							<th scope="row">
-								<a href="https://dac.com" target="_blank">DAC 2024</a>
-							</th>
-							<td>A</td>
-							<td>Nov 17, 2023</td>
-							<td>Nov 24, 2023</td>
-							<td>Feb 23, 2024</td>
-							<td>Jul 23-27, 2024</td>
-							<td>
-								<div data-countdown="2023-11-25 06:59:59"></div>
 							</td>
 						</tr>
 
@@ -298,7 +297,7 @@
 	<script src="assets/js/moment.min.js"></script>
 	<script src="assets/js/moment-timezone-with-data-2012-2022.min.js"></script>
 	<script>
-		var deadline = moment.tz("", "Asia/Hong_Kong");
+		var deadline = moment.tz("2023-11-25 06:59:59", "Asia/Hong_Kong");
 		$('#countdown').countdown(deadline.toDate(), function(event) {
 			$(this).html(event.strftime('%D days %H:%M:%S'));
 			});
