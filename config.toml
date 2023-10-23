@@ -125,14 +125,14 @@ notidue = "2024-12-08"
 
 [[params.cfp.list]]
 enable = 1
-name = "HPCA"
+name = "HPCA(predicted time)"
 rank = "A"
 site = "https://www.hpca-conf.org/2024/"
-open = "2024-03-02"
-close = "2024-03-06"
-absddl = "2023-07-28 23:59:59 -07:00"
-submddl = "2023-08-04 23:59:59 -07:00"
-notidue = "2023-10-24"
+open = "2025-03-02"
+close = "2025-03-06"
+absddl = "2024-07-28 23:59:59 -07:00"
+submddl = "2024-08-04 23:59:59 -07:00"
+notidue = "2024-10-24"
 
 [[params.cfp.list]]
 enable = 1
